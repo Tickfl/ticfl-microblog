@@ -1,0 +1,115 @@
+2019-12-28 14:23:59,716 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:43]
+2019-12-28 15:10:48,551 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:43]
+2019-12-28 15:52:57,106 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 15:57:42,447 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 15:57:48,562 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 16:16:56,369 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 16:27:15,471 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 16:38:32,198 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 16:52:12,817 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 16:54:49,012 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:45]
+2019-12-28 17:15:58,117 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:49]
+2019-12-28 17:17:40,631 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:49]
+2020-02-19 23:16:32,124 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:49]
+2020-02-19 23:52:53,385 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:51]
+2020-03-05 19:01:41,935 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:51]
+2020-03-05 19:42:41,280 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:54]
+2020-03-05 19:47:32,270 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:51]
+2020-03-05 19:51:16,167 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:51]
+2020-03-05 19:52:48,087 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:51]
+2020-03-13 02:19:21,185 INFO: Microblog startup [in /home/ravil/Рабочий стол/microblog/app/__init__.py:74]
+2020-03-13 02:19:23,052 ERROR: Exception on / [GET] [in /home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2241, in preprocess_request
+    rv = func()
+  File "/home/ravil/Рабочий стол/microblog/app/main/routes.py", line 17, in before_request
+    g.locale = str(get_locale())
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 247, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2020-03-13 02:19:46,726 ERROR: Exception on /index [GET] [in /home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2241, in preprocess_request
+    rv = func()
+  File "/home/ravil/Рабочий стол/microblog/app/main/routes.py", line 17, in before_request
+    g.locale = str(get_locale())
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 247, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2020-03-13 02:19:47,638 ERROR: Exception on /index [GET] [in /home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2241, in preprocess_request
+    rv = func()
+  File "/home/ravil/Рабочий стол/microblog/app/main/routes.py", line 17, in before_request
+    g.locale = str(get_locale())
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 247, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2020-03-13 02:19:48,665 ERROR: Exception on /explore [GET] [in /home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2241, in preprocess_request
+    rv = func()
+  File "/home/ravil/Рабочий стол/microblog/app/main/routes.py", line 17, in before_request
+    g.locale = str(get_locale())
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 247, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
+2020-03-13 02:19:49,758 ERROR: Exception on /index [GET] [in /home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 1947, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask/app.py", line 2241, in preprocess_request
+    rv = func()
+  File "/home/ravil/Рабочий стол/microblog/app/main/routes.py", line 17, in before_request
+    g.locale = str(get_locale())
+  File "/home/ravil/Рабочий стол/microblog/venv/lib/python3.6/site-packages/flask_babel/__init__.py", line 247, in get_locale
+    babel = current_app.extensions['babel']
+KeyError: 'babel'
